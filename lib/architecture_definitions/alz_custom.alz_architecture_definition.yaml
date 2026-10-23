@@ -10,13 +10,13 @@
   "display_name": "Platform"
   "exists": false
   "id": "platform"
-  "parent_id": "alz"
+  "parent_id": "valz"
 - "archetypes":
   - "landing_zones_custom"
   "display_name": "Landing Zones"
   "exists": false
   "id": "landingzones"
-  "parent_id": "alz"
+  "parent_id": "valz"
 - "archetypes":
   - "corp_custom"
   "display_name": "RSG-Corp"
@@ -40,7 +40,7 @@
   "display_name": "Sandbox"
   "exists": false
   "id": "sandbox"
-  "parent_id": "alz"
+  "parent_id": "valz"
 - "archetypes":
   - "security_custom"
   "display_name": "Security"
@@ -70,5 +70,5 @@
   "display_name": "RSG-Decommission"
   "exists": false
   "id": "RSG-Decommission"
-  "parent_id": "alz"
+  "parent_id": "valz"
 "name": "alz_custom"
