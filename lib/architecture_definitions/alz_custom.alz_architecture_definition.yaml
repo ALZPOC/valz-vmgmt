@@ -1,0 +1,74 @@
+"management_groups":
+- "archetypes":
+  - "root_custom"
+  "display_name": "RSG Azure Landing Zones"
+  "exists": true
+  "id": "valz"
+  "parent_id": null
+- "archetypes":
+  - "platform_custom"
+  "display_name": "Platform"
+  "exists": false
+  "id": "platform"
+  "parent_id": "alz"
+- "archetypes":
+  - "landing_zones_custom"
+  "display_name": "Landing Zones"
+  "exists": false
+  "id": "landingzones"
+  "parent_id": "alz"
+- "archetypes":
+  - "corp_custom"
+  "display_name": "RSG-Corp"
+  "exists": false
+  "id": "RSG-corp"
+  "parent_id": "landingzones"
+- "archetypes":
+  - "online_custom"
+  "display_name": "MG-AVD"
+  "exists": false
+  "id": "MG-AVD"
+  "parent_id": "landingzones"
+- "archetypes":
+  - "local_custom"
+  "display_name": "RSG-Data"
+  "exists": false
+  "id": "RSG-Data"
+  "parent_id": "landingzones"
+- "archetypes":
+  - "sandbox_custom"
+  "display_name": "Sandbox"
+  "exists": false
+  "id": "sandbox"
+  "parent_id": "alz"
+- "archetypes":
+  - "security_custom"
+  "display_name": "Security"
+  "exists": false
+  "id": "security"
+  "parent_id": "platform"
+- "archetypes":
+  - "management_custom"
+  "display_name": "Management"
+  "exists": false
+  "id": "management"
+  "parent_id": "platform"
+- "archetypes":
+  - "connectivity_custom"
+  "display_name": "Connectivity"
+  "exists": false
+  "id": "connectivity"
+  "parent_id": "platform"
+- "archetypes":
+  - "identity_custom"
+  "display_name": "Identity"
+  "exists": false
+  "id": "identity"
+  "parent_id": "platform"
+- "archetypes":
+  - "decommissioned_custom"
+  "display_name": "RSG-Decommission"
+  "exists": false
+  "id": "RSG-Decommission"
+  "parent_id": "alz"
+"name": "alz_custom"
